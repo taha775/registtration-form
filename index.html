@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>
+            smit registration form
+        </title>
+
+        <style>
+           table{
+            margin-left: auto;
+            margin-right: auto;
+           }
+
+           h1{                                                                                      
+            text-align: center;
+           }
+
+           .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           }
+           
+           .field
+           {
+            background-color: lightgrey;
+           }
+           
+           .lbl{
+            font-weight: bold;
+           }
+           
+        </style>
+
+    </head>
+
+    <body>
+        <img src="https://th.bing.com/th/id/OIF.O33XXgQbDmsYwtmwDavhAA?w=321&h=173&c=7&r=0&o=5&pid=1.7" alt="smit logo" class="center">
+
+        <h1> "SAYLANI ONLINE ACADEMY"</h1>
+        
+   
+        <table>
+
+        <td>     
+        <form action="./new.html" method="get" >
+        <fieldset style="width:600px ; height: 800px;" class="field">
+        <legend align="center">STUDENT REGISTRATION FORM</legend>
+        
+        <h1>STUDENT REGISTRATION FORM</h1>
+        
+        <label class="lbl"> NAME </label> &emsp; &emsp;  &emsp; &emsp; 
+        <input type="text" size="40" placeholder="NAME" name="name" minlength="3" maxlength="15" required >
+
+        <br><br>
+        
+        <label class="lbl"> FATHER NAME </label> &emsp; 
+        <input type="text" size="40" placeholder="FATHER NAME" name="Fname" minlength="3" maxlength="15" required>
+
+        <br><br>
+        
+        <label class="lbl"> PASSWORD </label>&emsp; &emsp; 
+        <input type="password" size="40" placeholder="PASSWORD" name="password" minlength="3"  required>
+
+        <br><br>
+
+        <label class="lbl">ADDRESS</label>&emsp; &emsp; 
+        
+        <textarea name="message" id="" cols="40" rows="4" maxlength="20"></textarea>
+        <br><br>    
+        
+        <label class="lbl">GENDER</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label class="lbl">MALE</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        &emsp;&emsp;&emsp;&emsp;
+        
+        
+        <label class="lbl"> FEMALE</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+
+        <br><br>
+
+        <label class="lbl">LANGUAGE</label>&emsp;&emsp;
+        <input type="checkbox" name="lang1" value="urdu">URDU
+        <input type="checkbox" name="lang1" value="english">ENGLISH
+        <input type="checkbox" name="lang1" value="arabic">ARABIC
+        <input type="checkbox" name="lang1" value="china">CHINA
+        
+        <br><br>
+
+        <label class="lbl">DOB</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="date" name="dob">
+
+        <br><br>
+
+        <label class="lbl">EMAIL</label>&emsp;&emsp;&emsp;&emsp;
+        <input type="email" placeholder="EMAIL ID" >
+
+        <br><br>
+
+        <label class="lbl">Mobile Num</label>&emsp;&emsp;
+        <input type="number" placeholder="mobile number">
+
+        <br><br>
+        
+        <label class="lbl">CITY</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select name="city">
+        <optgroup>  </optgroup>
+        <option value="" selected disabled > select city</option>
+        <option value="hyd"  > HYDERABAD</option>
+        <option value="karachhi"  > KARACHI</option>
+        <option value="sukkhur"  > SUKKHUR</option>
+        <option value="mataiari"  > MATIARI</option>
+        
+
+        </select>
+
+        <br><br>
+
+
+        <label class="lbl">HOBBIES</label>&emsp;&emsp;&emsp;
+        <select name="hobbies">
+        <option value="" selected disabled> select hobbies</option>            
+        <option value="circket" > circket</option>
+        <option value="football">  football</option>
+        <option value="tenis" > tenis</option>
+        <option value="basketball" > basketball</option>
+
+        </select>
+
+        <br><br>
+        <label class="lbl">PICTURE UPLOAD</label>&emsp;&emsp;
+        <input type="file" name="image" >
+        &emsp;&emsp;&emsp;
+        <input type="button" value="upload"> 
+
+        <br><br><br><br><br><br>
+        
+        
+        
+        <a href="./new.html" > <input type="button" value="SUBMIT FORM" class="center"> </a>
+
+        
+
+
+        </fieldset>
+            
+        </form>
+        </td>
+        </table>
+
+
+    </body>
+</html>
